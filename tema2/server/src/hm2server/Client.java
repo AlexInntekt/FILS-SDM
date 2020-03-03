@@ -18,12 +18,12 @@ public class Client {
  public static void main(String[] args){
      String readName = null;
      Scanner scan = new Scanner(System.in);
-     System.out.println("Please input username:");
+     System.out.println("Introdu numele tau de utilizator:");
      while(readName == null || readName.trim().equals("")){
          // null, empty, whitespace(s) not allowed.
          readName = scan.nextLine();
          if(readName.trim().equals("")){
-             System.out.println("Invalid. Please enter again:");
+             System.out.println("Gresit. Incearca din nou:");
          }
      }
 
